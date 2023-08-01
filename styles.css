@@ -21,18 +21,23 @@ button {
 }
 
 .buttons,
-.numbers,
+#numbers,
 .operators {
     width: 400px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     gap: 12px;
 }
 
-.screen {
+#screen {
     height: 100px;
     width: 400px;
     border: 2px solid black;
     margin-bottom: 12px;
     background-color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
 }
