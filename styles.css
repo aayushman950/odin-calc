@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+.calculator {
+    width: 400px;
+    border: 3px solid black;
+    margin: 12px;
+    padding: 10px;
+    background-color: darkgrey;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button {
+    height: 70px;
+    width: 70px;
+}
+
+.buttons,
+.numbers,
+.operators {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+.screen {
+    height: 100px;
+    width: 400px;
+    border: 2px solid black;
+    margin-bottom: 12px;
+    background-color: azure;
+}
