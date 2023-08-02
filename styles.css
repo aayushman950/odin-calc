@@ -30,7 +30,7 @@ button {
     gap: 12px;
 }
 
-#screen {
+.screen {
     height: 100px;
     width: 400px;
     border: 2px solid black;
